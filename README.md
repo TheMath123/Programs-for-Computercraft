@@ -4,5 +4,6 @@ Programs created for [Minecraft](https://www.minecraft.net/) [Computercraft](htt
 ## Listing:
 - [down.lua](./blob/main/down.lua) - Speeds up downloading files from [pastebin](https://pastebin.com/)
 - [InductiveMechanismCalculator](/blob/main/InductiveMechanismCalculator.lua) - Calculates the amount of items for creating the Inductive Mechanism of the Create mod.
+- [Billboard](/blob/main/DigitalBulletinBoard.lua) - Digital bulletin board.
 
 ### Programs in [pastebin.com](https://pastebin.com/u/themath12345)
