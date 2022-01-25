@@ -1,4 +1,5 @@
 monitor = peripheral.wrap("right") -- Define o monitor do lado direito
+monitor.setTextScale(0.5) -- diminuir a fonte
 monitor.clear() -- Limpa o monitor
 monitor.setCursorBlink(true) -- Habilita o curso na tela
 
@@ -50,7 +51,7 @@ case = {
 
     clearLine(indexL)
     monitor.setCursorPos(1,indexL)
-    monitor.write(indexL+1 .. " - " .. msg)
+    monitor.write(line .. " - " .. msg)
 
     local iNote = indexL - 1
     note[iNote] = msg
@@ -76,7 +77,7 @@ case = {
     end
   end,
 
-  ['4'] = function ()
+  ['4'] = function () -- Reseta quadro de avisos
     shell.run("clear") -- limpa o terminal
 
     print("QUADRO DE AVISOS\n")
