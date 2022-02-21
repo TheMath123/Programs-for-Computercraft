@@ -41,7 +41,7 @@ function quantItens(quant) -- Calcula a quantidade de itens
   monitor.write(z)
   monitor.setCursorPos(3,6)
   monitor.write(w)
-  monitor.setCursorPos(1,7)
+  monitor.setCursorPos(2,7)
 end
 
 -- Programa
