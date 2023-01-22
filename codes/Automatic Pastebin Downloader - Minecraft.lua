@@ -1,10 +1,10 @@
 shell.run("rm startup")
-print("Arquivo \"startup\" deletado.")
-
-print("Digite a chave do pastebin:")
+print("File \"startup\" deleted.")
+ 
+print("Enter the key of pastebin:")
 inputTerm = read()
-
+ 
 shell.run("pastebin get ",inputTerm," startup")
-
-print("Reiniciando computador ...")
+ 
+print("Restarting computer ...")
 shell.run("reboot")
