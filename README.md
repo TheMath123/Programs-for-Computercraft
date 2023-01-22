@@ -7,4 +7,6 @@ Programs created for [Minecraft](https://www.minecraft.net/) [Computercraft](htt
 - [Billboard](https://github.com/TheMath123/Programs-for-Computercraft/blob/main/codes/Digital%20Bulletin%20Board%20-%20Minecraft.lua) - Digital bulletin board.
 - [open_or_close_automatic_door.lua](https://github.com/TheMath123/Programs-for-Computercraft/blob/main/codes/open_or_close_automatic_door.lua) - Program that opens and closes doors automatically, using the sensor player of the Advanced Peripherals mod.
 
+*Observation: Some programs have text displayed in Portuguese, but you can change it to your language.*
+
 ### Programs in [pastebin.com](https://pastebin.com/u/themath1234)
